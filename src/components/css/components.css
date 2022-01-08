@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.primaryButton a {
+  color: #ef4f5f !important;
+  font-size: 18px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.secondaryButton a {
+  color: #ffffff !important;
+  font-size: 16px !important;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ef4f5f;
+  border-radius: 5px;
+  padding: 10px 25px;
+}
+
+.card-campaigns .campaigns-card {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+
+.card-campaigns .campaigns-card img {
+  width: 150%;
+  position: absolute;
+  left: -70px;
+}
+
+.card-campaigns .campaigns-card .card-subpara {
+  position: absolute;
+  color: #ffffff;
+  font-size: 15px !important;
+  font-weight: 500;
+  bottom: 5px;
+  left: 10px;
+}
+
+.card-campaigns .campaigns-card .card-subpara strong {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+.card-campaigns .primaryButton a {
+  font-weight: 500;
+}
+/*# sourceMappingURL=components.css.map */

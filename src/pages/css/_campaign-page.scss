@@ -1,0 +1,82 @@
+#campaign {
+    .hero-heading {
+        font-size: 44px;
+    }
+
+    .hero-para {
+        width: 60%;
+    }
+
+    #campaign-second-section {
+        .hero-para {
+            width: 100%;
+        }
+
+        #heroSection {
+            justify-content: flex-start;
+            align-items: flex-end;
+            height: auto;
+            padding: 170px 25px 25px 25px;
+            border-radius: 10px;
+
+            .container {
+                width: 100%;
+            }
+        }
+    }
+
+    #past-campaigns {
+        .getInTouchCard {
+            background: #f8f8f8;
+            border-radius: 10px;
+            padding: 10px 20px 25px;
+            height: 260px;
+
+            h5 {
+                font-weight: 700;
+            }
+
+            p {
+                color: #333333;
+            }
+
+            .primaryButton {
+                margin-top: 20px;
+
+                a {
+                    font-weight: 500;
+    
+                }
+            }
+        }
+
+        .past-campaigns {
+            .col {
+                margin-bottom: 50px;
+            }
+        }
+
+        .card-campaigns {
+            .card-heading {
+                font-size: 26px;
+            }
+
+            .campaigns-card {
+                width: 94%;
+                height: 260px;
+
+                .card-subpara {
+                    font-size: 18px !important;
+                }
+
+                img {
+                    width: 145%;
+                }
+            }
+        }
+    }
+}
+
+#footer {
+    margin-top: 130px;
+}

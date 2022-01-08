@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$colors: (
+    primary: #ef4f5f,
+    font: #696969,
+    strong: #000000,
+    strong-second: #363636,
+    section-bgcolor: #F8F8F8
+);
+
+@function color($colorName) {
+	@return map-get($map: $colors, $key: $colorName);
+}
